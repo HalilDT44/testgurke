@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TG Bau — Putz, Trockenbau & Fliesen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <a href="#top" class="brand">
+      <span class="brand-mark">TG</span>
+      <span class="brand-text">TG <span>BAU</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#leistungen">Leistungen</a></li>
+      <li><a href="#projekte">Projekte</a></li>
+      <li><a href="#ablauf">Ablauf</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+    <a class="nav-cta" href="tel:+493012345678">
+      <span>Anrufen:</span> 030 · 123 456 78
+    </a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-blob blob-a" aria-hidden="true"></div>
+    <div class="hero-blob blob-b" aria-hidden="true"></div>
+    <svg class="hero-facade" viewBox="0 0 400 300" aria-hidden="true">
+      <rect x="20" y="60" width="360" height="220" fill="none" stroke="#111" stroke-width="1.5"/>
+      <path d="M20 60 L200 10 L380 60" fill="none" stroke="#111" stroke-width="1.5"/>
+      <rect x="55" y="100" width="60" height="70" fill="none" stroke="#111" stroke-width="1.2"/>
+      <rect x="170" y="100" width="60" height="70" fill="none" stroke="#111" stroke-width="1.2"/>
+      <rect x="285" y="100" width="60" height="70" fill="none" stroke="#111" stroke-width="1.2"/>
+      <rect x="170" y="190" width="60" height="90" fill="none" stroke="#111" stroke-width="1.2"/>
+      <line x1="85" y1="100" x2="85" y2="170" stroke="#111" stroke-width="1"/>
+      <line x1="55" y1="135" x2="115" y2="135" stroke="#111" stroke-width="1"/>
+      <line x1="200" y1="100" x2="200" y2="170" stroke="#111" stroke-width="1"/>
+      <line x1="170" y1="135" x2="230" y2="135" stroke="#111" stroke-width="1"/>
+      <line x1="315" y1="100" x2="315" y2="170" stroke="#111" stroke-width="1"/>
+      <line x1="285" y1="135" x2="345" y2="135" stroke="#111" stroke-width="1"/>
+      <line x1="0" y1="280" x2="400" y2="280" stroke="#111" stroke-width="1.5"/>
+    </svg>
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">TG Bau · Ihr Handwerksbetrieb</p>
+        <h1>
+          <span class="word">Putz.</span>
+          <span class="word">Trockenbau.</span><br>
+          <span class="word">Fliesen.</span>
+        </h1>
+        <p class="lead">TG Bau verwandelt raue Wände in glatte Oberflächen, teilt Räume mit sauberem Trockenbau und verlegt Fliesen, die Jahre halten. Alles aus einer Hand, mit Festpreis.</p>
+        <div class="hero-actions">
+          <a href="#kontakt" class="btn btn-primary">Kostenlos anfragen</a>
+          <a href="#leistungen" class="btn btn-outline">Leistungen ansehen</a>
+        </div>
+      </div>
+      <div>
+        <div class="ba-wrap">
+          <div class="ba-layer ba-before"></div>
+          <div class="ba-layer ba-after" id="baAfter"></div>
+          <div class="ba-handle" id="baHandle"></div>
+          <input type="range" class="ba-range" id="baRange" min="0" max="100" value="50" aria-label="Vorher-Nachher-Vergleich: raue und geglättete Putzoberfläche">
+          <span class="ba-tag ba-tag-before">Vorher</span>
+          <span class="ba-tag ba-tag-after">Nachher</span>
+        </div>
+        <p class="ba-caption">Ziehen Sie den Regler — so verändert sich eine Wand durch unsere Putzarbeiten.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="stats-inner">
+      <div>
+        <div class="stat-num" data-count="18">0</div>
+        <div class="stat-lbl">Jahre Erfahrung</div>
+      </div>
+      <div>
+        <div class="stat-num" data-count="450">0</div>
+        <div class="stat-lbl">Projekte umgesetzt</div>
+      </div>
+      <div>
+        <div class="stat-num" data-count="98">0</div>
+        <div class="stat-lbl">% Weiterempfehlung</div>
+      </div>
+      <div>
+        <div class="stat-num" data-count="3">0</div>
+        <div class="stat-lbl">Gewerke, ein Team</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJEKTE -->
+  <section class="section projects" id="projekte">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Projekte</p>
+        <h2>Ausgewählte Arbeiten</h2>
+        <p>Ein Auszug aus Projekten, die TG Bau in den letzten Jahren umgesetzt hat.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-thumb swatch-putz"></div>
+          <div class="project-body">
+            <span class="project-size mono">210 m²</span>
+            <h3>Altbausanierung Charlottenburg</h3>
+            <p>Innenputz &amp; Rissausbesserung in einem sanierten Gründerzeit-Mehrfamilienhaus.</p>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-thumb swatch-trockenbau"></div>
+          <div class="project-body">
+            <span class="project-size mono">140 m²</span>
+            <h3>Dachgeschossausbau Prenzlauer Berg</h3>
+            <p>Trennwände, Dämmung &amp; abgehängte Decken für ein neues Homeoffice-Loft.</p>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-thumb swatch-fliesen"></div>
+          <div class="project-body">
+            <span class="project-size mono">65 m²</span>
+            <h3>Badsanierung Neukölln</h3>
+            <p>Komplettabdichtung &amp; großformatige Fliesen in zwei Badezimmern.</p>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-thumb swatch-putz"></div>
+          <div class="project-body">
+            <span class="project-size mono">480 m²</span>
+            <h3>Fassadenputz Wohnanlage Spandau</h3>
+            <p>Sanierputz &amp; neuer Außenanstrich für einen kompletten Wohnblock.</p>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-thumb swatch-trockenbau"></div>
+          <div class="project-body">
+            <span class="project-size mono">95 m²</span>
+            <h3>Bürotrennwände Mitte</h3>
+            <p>Schallschutzwände &amp; Deckensegel für ein modernes Coworking-Büro.</p>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-thumb swatch-fliesen"></div>
+          <div class="project-body">
+            <span class="project-size mono">320 m²</span>
+            <h3>Gewerbeküche Friedrichshain</h3>
+            <p>Rutschfeste Bodenfliesen &amp; Wandverkleidung nach Hygienevorgaben.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEISTUNGEN -->
+  <section class="section services" id="leistungen">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Leistungen</p>
+        <h2>Drei Gewerke, ein Handwerksbetrieb</h2>
+        <p>Von der rohen Wand bis zur fertigen Fliese — TG Bau begleitet Ihr Projekt komplett.</p>
+      </div>
+
+      <div class="service-cards">
+        <div class="service-card clay reveal">
+          <div class="swatch swatch-putz"></div>
+          <span class="service-tag mono">Innen &amp; Außen</span>
+          <h3>Putzarbeiten</h3>
+          <ul class="service-list">
+            <li>Innenputz &amp; Glattputz</li>
+            <li>Fassadenputz &amp; Wärmedämmung</li>
+            <li>Sanierputz bei Feuchtigkeit</li>
+            <li>Rissausbesserung &amp; Altputz-Sanierung</li>
+          </ul>
+          <a href="#kontakt" class="service-link">Angebot anfragen <span class="arrow">→</span></a>
+        </div>
+
+        <div class="service-card slate reveal">
+          <div class="swatch swatch-trockenbau"></div>
+          <span class="service-tag mono">Innenausbau</span>
+          <h3>Trockenbau</h3>
+          <ul class="service-list">
+            <li>Trennwände &amp; Raumteiler</li>
+            <li>Abgehängte Decken</li>
+            <li>Dachgeschossausbau</li>
+            <li>Schall- &amp; Brandschutzwände</li>
+          </ul>
+          <a href="#kontakt" class="service-link">Angebot anfragen <span class="arrow">→</span></a>
+        </div>
+
+        <div class="service-card teal reveal">
+          <div class="swatch swatch-fliesen"></div>
+          <span class="service-tag mono">Bad, Küche &amp; Boden</span>
+          <h3>Fliesen</h3>
+          <ul class="service-list">
+            <li>Bad- &amp; Küchenfliesen</li>
+            <li>Fliesen im Wohn- &amp; Außenbereich</li>
+            <li>Abdichtung nach Norm</li>
+            <li>Große Formate &amp; Feinsteinzeug</li>
+          </ul>
+          <a href="#kontakt" class="service-link">Angebot anfragen <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABLAUF -->
+  <section class="section process" id="ablauf">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Ablauf</p>
+        <h2>So läuft die Zusammenarbeit</h2>
+        <p>Klar, planbar, ohne Überraschungen auf der Rechnung.</p>
+      </div>
+      <div class="process-steps reveal">
+        <div class="step">
+          <span class="step-num mono">01</span>
+          <h4>Anfrage</h4>
+          <p>Sie schildern uns Ihr Vorhaben — per Telefon oder Formular.</p>
+        </div>
+        <div class="step">
+          <span class="step-num mono">02</span>
+          <h4>Vor-Ort-Termin</h4>
+          <p>Wir sehen uns die Räume an und nehmen Maß.</p>
+        </div>
+        <div class="step">
+          <span class="step-num mono">03</span>
+          <h4>Festpreisangebot</h4>
+          <p>Sie erhalten ein schriftliches Angebot zum Festpreis.</p>
+        </div>
+        <div class="step">
+          <span class="step-num mono">04</span>
+          <h4>Umsetzung</h4>
+          <p>Unser Team arbeitet sauber und termingerecht — inklusive Abnahme.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq" id="faq">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Häufige Fragen</p>
+        <h2>Gut zu wissen</h2>
+      </div>
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Wie lange dauert eine Putzsanierung? <span class="plus">+</span></button>
+          <div class="faq-a"><p>Das hängt von der Fläche und dem Zustand des Altputzes ab. Ein normales Zimmer ist meist in 2–4 Tagen fertig, größere Fassaden entsprechend länger. Nach dem Vor-Ort-Termin nennen wir Ihnen einen konkreten Zeitrahmen.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Muss ich während der Arbeiten ausziehen? <span class="plus">+</span></button>
+          <div class="faq-a"><p>In der Regel nicht. Wir arbeiten raumweise und schotten Staub mit Folien ab, sodass Sie die restliche Wohnung normal nutzen können. Bei größeren Sanierungen sprechen wir das im Vorfeld ab.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Was kostet Trockenbau pro Quadratmeter? <span class="plus">+</span></button>
+          <div class="faq-a"><p>Der Preis hängt von Wandaufbau, Dämmung und Anzahl der Beplankungen ab. Nach einem kurzen Vor-Ort-Termin erhalten Sie von uns ein unverbindliches Festpreisangebot.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Verlegt ihr Fliesen inklusive Abdichtung im Bad? <span class="plus">+</span></button>
+          <div class="faq-a"><p>Ja. Wir übernehmen die komplette Badsanierung inklusive normgerechter Abdichtung, damit Feuchtigkeit dauerhaft draußen bleibt.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Gebt ihr Garantie auf eure Arbeiten? <span class="plus">+</span></button>
+          <div class="faq-a"><p>Ja, auf alle Gewerke geben wir die gesetzliche Gewährleistung. Details besprechen wir individuell in Ihrem Angebot.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section class="section contact" id="kontakt">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Kontakt</p>
+        <h2>Jetzt unverbindlich anfragen</h2>
+        <p>Wir melden uns in der Regel innerhalb von 2 Stunden zurück.</p>
+      </div>
+      <div class="contact-grid">
+        <form class="reveal" onsubmit="return handleSubmit(event)">
+          <div class="form-row">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Ihr Name" required>
+            </div>
+            <div>
+              <label for="phone">Telefon</label>
+              <input id="phone" name="phone" type="tel" placeholder="Für Rückruf" required>
+            </div>
+          </div>
+          <div>
+            <label for="topic">Worum geht's?</label>
+            <select id="topic" name="topic">
+              <option>Putzarbeiten</option>
+              <option>Trockenbau</option>
+              <option>Fliesen</option>
+              <option>Mehreres / bin mir nicht sicher</option>
+            </select>
+          </div>
+          <div>
+            <label for="message">Nachricht</label>
+            <textarea id="message" name="message" placeholder="Kurz beschreiben, worum es geht …"></textarea>
+          </div>
+          <button class="form-submit" type="submit">Anfrage senden</button>
+          <p class="form-note" id="form-status">Kostenlos &amp; unverbindlich.</p>
+        </form>
+
+        <dl class="contact-info reveal">
+          <dt>Telefon</dt>
+          <dd><a href="tel:+493012345678">030 · 123 456 78</a></dd>
+          <dt>E-Mail</dt>
+          <dd><a href="mailto:info@tg-bau.de">info@tg-bau.de</a></dd>
+          <dt>Adresse</dt>
+          <dd>Baustraße 14, 12045 Berlin</dd>
+          <dt>Geschäftszeiten</dt>
+          <dd>Mo–Fr 7:00–17:00 Uhr</dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span>© 2026 TG Bau — Putz, Trockenbau &amp; Fliesen</span>
+    <ul class="footer-links">
+      <li><a href="kontakt.html">Anfrage</a></li>
+      <li><a href="impressum.html">Impressum</a></li>
+      <li><a href="datenschutz.html">Datenschutz</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
